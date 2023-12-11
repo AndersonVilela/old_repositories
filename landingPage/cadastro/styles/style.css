@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 70%;
+    color: white;
+}
+
+body{
+    background:url;
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    width: 50vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: url(../components/images/foto.png);
+
+    
+}
+
+.left{
+    font-size: 30px;
+    font-family: 'Koulen', cursive;
+
+}
+
+.right{
+    width: 50vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: #1D081F;  
+    font-family: 'Poppins', sans-serif;
+  
+}
+.right > form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.welcome{
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    
+}
+
+.sing-in{
+    flex-wrap: wrap;
+}
+
+.hrs{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 30px;
+
+
+}
+
+.hrs > hr{
+    flex: 1;
+    height: 2px;
+    color: white;
+    size: 100%;
+    
+
+}
+
+.hrs > p{
+    margin: 0 10px;
+}
+
+.sing-in{
+    padding-bottom: 30px;
+    
+    
+}
+.sing-in > button{
+    size: 10px;
+    margin: 1rem 1rem;
+    padding: 1rem 1.2rem;
+    border: none solid white;
+    border-radius: 15px;
+    color: white;
+    background: transparent;
+    border-color: white;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+    
+}
+
+.input-box input{
+    margin: 1rem 1rem;
+    padding: 1rem 1.2rem;
+    border: none solid white;
+    border-radius: 15px;
+    color: white;
+    background: transparent;
+    border-color: white;
+
+ 
+}
+
+.input-box > label{
+    align-self: center;
+    text-transform: uppercase;
+}
+
+.input-left{
+    display: flex;
+}
+.input-right{
+    display: flex;
+}
+
+.caixa-selecao {
+
+}
+
+#caixa{
+    width: 3.3em;
+    height: 3.3em;
+    background-color: white;
+    border-radius: 20%;
+    border: 2px solid white;
+    background: transparent;
+    appearance:none;
+
+}
+
+.enter{
+    margin: 1rem 1rem;
+    padding: 1rem 1.2rem;
+    border: none solid white;
+    border-radius: 15px;
+    color: white;
+    background: transparent;
+    border-color: white;
+}

@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #1D1D1D;
+  width: 100vw;
+  height: 100vh;
+}
+
+.map {
+  border: 0;
+  position: relative;
+
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+.card {
+  width: 303px;
+  height: 100px;
+  position: absolute;
+
+  top: 12.8%;
+  left: 54.1%;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #000;
+  color: #f3f3f3;
+  padding: 20px;
+  backdrop-filter: blur(70%);
+  -webkit-backdrop-filter: blur(70%);
+  opacity: 100%;
+}
+
+.form {
+  width: 600px;
+  height: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.junt {
+  display: flex;
+    margin-bottom: 1rem;
+}
+
+.name {
+  width: 288px;
+  height: 45px;
+  margin-right: 1.5rem;
+}
+
+.email {
+  height: 45px;
+  width: 288px;
+}
+
+.subject {
+  width: 600px;
+  height: 45px;
+  margin-bottom: 1rem;
+}
+
+.area {
+  width: 600px;
+  height: 120px;
+  resize: none;
+}
+
+.name, .email, .subject, .area {
+  background-color: #2B2B2B;
+  border: none;
+
+  font-family: sans-serif;
+  padding: 10px;
+  font-weight: 600;
+  color: #fff;
+
+}
+
+.button {
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-family:sans-serif;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    border: 2px solid #2b2b2b;
+    text-decoration: none;
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    max-width: 220px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+}
+
+.button:hover {
+  background: turquoise;
+}
+
+.title {
+  font-size: 30px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #696969;
+  text-align: start;
+}
+
+.content {
+  width: 600px;
+  color: #fff;
+
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}

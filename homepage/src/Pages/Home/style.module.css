@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+.Container {
+  background: #202023;
+  width: 100vw;
+  height: 150vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+.content {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 50%;
+  height: 96%;
+}
+
+.model3d {
+  width: 500px;
+  height: 500px;
+
+  position: relative;
+
+  margin-top: 4rem;
+}
+
+.bubleDescription {
+  margin-top: 2rem;
+
+  background-color: #313134;
+
+  height: 48px;
+  width: 502px;
+
+  border-radius: 10px;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #E0E0E1;
+}
+
+.perfil {
+  height: 96px;
+  width: 96px;
+
+  border: 1.8px solid #fff;
+  border-radius: 999px;
+}
+
+.contentPerfil {
+
+  width: 502px; 
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.name { 
+  font-family: 'Inter' sans-serif;
+  font-size: 40px;
+
+  color: #fff;
+}
+
+.work {
+  width: 502px;
+  height: 200px;
+}
+
+.titlesub {
+  color: #E0E0E1;
+  font-size: 30px;
+
+  border-bottom: 2px solid #696969;
+
+  width: 75px;
+  margin-bottom: 10px;
+}
+
+.btnPortifolio {
+
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  
+  color: #FFFFFF;
+
+  width: 187px;
+  height: 52px;
+
+  background: #1D1D1D;
+  border: 1px solid #FFFFFF;
+
+  margin-top: 2rem;
+}
+
+.meet {
+  color: #E0E0E1;
+  font-size: 30px;
+
+  border-bottom: 2px solid #696969;
+
+  margin-bottom: 10px;
+  width: 150px;
+
+}
+
+.git {
+  align-items: center;
+  display: flex;
+
+  margin-top: 1.5rem;
+
+  background: transparent;
+
+  width: 200px;
+  height: 30px;
+
+  border: none;
+  border-radius: 10px;
+
+  color: #fff;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.git > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.git:hover {
+  background: #2C3839;
+}
+
+.icon {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.linkedn {
+  align-items: center;
+  display: flex;
+
+  margin-top: 1.5rem;
+
+  background: transparent;
+  color: #fff;
+
+  width: 200px;
+  height: 30px;
+
+  border: none;
+  border-radius: 10px;
+
+  justify-content: center;
+  cursor: pointer;
+}
+
+.linkedn > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.linkedn:hover {
+
+    background: #2C3839;
+}
+
+.hidden {
+  width: 165px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+
+  top: 84%;
+  left: 68%;
+
+  background-color: #1D1D1D;
+}
+
+

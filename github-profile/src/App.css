@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: grey;
+  background-image: url(./images/Montain-snow.jpg);
+  background-size: cover;
+}
+
+.box {
+  width: 50vw;
+  height: 80vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  background: rgba(217, 217, 217, 0.5);
+  backdrop-filter: blur(4.5px);
+  border-radius: 45px;
+}
+
+/*First page*/
+
+.box .inicial {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.box .inicial .logo {
+  width: 150px;
+  height: 150px;
+  margin: 1rem;
+
+}
+
+.box .inicial .pesquisa {
+  width: 350px;
+  height: 30px;
+  margin: 1rem;
+
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  line-height: 30px;
+
+  color: #B77B7B;
+  border: 2.5px solid #7878d7 ;
+  border-radius: 15px;
+
+  cursor: pointer;
+}
+
+.box .inicial .btn {
+  background: #535585;
+  color: #BB7777;
+
+  border-radius: 8px;
+  border: none;
+
+
+  width: 130px;
+  height: 40px;
+  margin: 1rem;
+
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 39px;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+/*Second Page*/
+
+.box .information {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .information .perfil {
+  width: 130px;
+  height: 130px;
+  
+  border-radius: 100%;
+  border: 2.5px solid #7878D7;
+}
+
+.box .information .nickname {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 39px;
+  text-align: center;
+
+  color: #554444;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+} 
+
+.box .information .informations {
+  display: flex;
+}
+
+.box .information .informations .numerations {
+  width: 270px;
+  height: 134px;
+
+  /*background: rgba(255, 255, 255, 0.6); */ 
+  background: #fffafa;
+  opacity: 0.75;
+
+  border-radius: 6px;
+  margin-left: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.number {
+  margin: 0 2rem;
+
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 79px;
+  font-size: 50px;
+
+}
+
+.titles {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  color: #756767;
+}
+
+.box .information .informations .most-languages {
+  width: 280px;
+  height: 140px;
+  margin-left: 2rem;
+  border-radius: 15px;
+  opacity: 0.8;
+
+}

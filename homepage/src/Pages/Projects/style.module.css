@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Oswald:wght@300;400;500;600;700&display=swap');
+
+.container {
+  background-color: #202023;
+
+  width: 100vw;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.model3d {
+  width: 500px;
+  height: 500px;
+
+  position: relative;
+
+  margin-top: 4rem;
+}
+
+
+.list {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  margin-top: 2rem;
+  justify-items: center;
+  align-items: start;
+
+
+}
+
+.listagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.title {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  border-bottom: 3px solid #696969;
+  margin-top: 2rem;
+}
+
+.contentTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 510px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+}

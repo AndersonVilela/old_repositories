@@ -1,0 +1,7 @@
+Envio bem-sucedido!
+Curso: 1676103, Laboratório de Desenvolvimento de Algoritmos - CC - P2
+Avaliação: Avaliação 1
+
+Data de envio: 11/10/22 20:08
+Autor do envio: Anderson Lucas Brito Vilela UNIP&Ecirc;_Ci&ecirc;ncia da Computa&ccedil;&atilde;o &#x28;Bacharelado&#x29;_2A_20222
+Número de confirmação: 17a6d94578b04369ad1a95ce7a1e455a
